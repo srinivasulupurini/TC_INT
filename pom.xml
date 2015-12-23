@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.geowarin.mvc</groupId>
-	<artifactId>mvc-base</artifactId>
+	<artifactId>FeatureTwo</artifactId>
 
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
