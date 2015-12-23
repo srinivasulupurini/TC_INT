@@ -45,8 +45,8 @@ public class HomeControllerTest {
 	public void postEmptyData() throws Exception {
 		this.mockMvc.perform(post("/"))
 			.andDo(print())
-			//.andExpect(status().isOk())
-			.andExpect(status().isMovedTemporarily())
+			.andExpect(status().isOk())
+			//.andExpect(status().isMovedTemporarily())
 			.andExpect(model().attributeHasFieldErrors("formDTO", "messageFromUser"))
 			.andExpect(forwardedUrl("/WEB-INF/views/home.jsp"));
 	}
